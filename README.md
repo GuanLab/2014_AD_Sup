@@ -45,3 +45,11 @@ contrib/original_code/gpr_prediction.m
 Consider the size of these data, we cannot provide them through GitHub. Please download from Synpase website and put them here.
 
 4. Run the IPython notebook.
+
+## How to perform network analysis
+
+Unfortunately, Cytoscape does not have an intuitive way to perform network analysis. We used the cytoscape.script in the root folder to analyze our network decomposition. Use cytoscape -S cytoscape.script will generate one round of decomposition. Use bash or other tools to repeat the process.
+
+The network file can be import from network/complete/original.csv
+
+The analysis requires Cytoscape and clusterMaker2.
